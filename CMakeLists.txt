@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(Timus)
+if (DEFINED ENV{TRAVIS_BUILD_NUMBER})
+   project(Timus VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
+else()
+   project(Timus VERSION 0.0.1)
+endif()
 
 set(TIMUS_CURRENT_TASK 1837)
 
