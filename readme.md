@@ -6,7 +6,7 @@
 Х http://acm.timus.ru/problem.aspx?num=1545  
 Х http://acm.timus.ru/problem.aspx?num=1496  
 Х http://acm.timus.ru/problem.aspx?num=1196    
-Х http://acm.timus.ru/problem.aspx?num=1837
+Х http://acm.timus.ru/problem.aspx?num=1837  
 ѕрислать в чат ссылку на профиль с решенными задачами.
 ## ѕроверка
 «адание считаетс€ выполненным успешно, если результат проверки всех
