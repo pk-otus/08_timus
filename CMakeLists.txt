@@ -23,7 +23,7 @@ add_executable(timus_test test_main.cpp)
 add_executable(timus main.cpp)
 
 set_target_properties(timus_test PROPERTIES INCLUDE_DIRECTORIES ${GTEST_INCLUDE_DIRS} )
-target_link_libraries(timus_test timus_tasks ${GTEST_LIBRARIES})
+target_link_libraries(timus_test timus_tasks ${GTEST_LIBRARIES} ${GTEST_MAIN_LIBRARIES})
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
 	set_target_properties(timus PROPERTIES
