@@ -1,13 +1,18 @@
 # «адание 8
 ## ”словие
-—оздать собственный аккаунт на ресурсе http://acm.timus.ru/register.aspx .
+—оздать собственный аккаунт на ресурсе http://acm.timus.ru/register.aspx .  
 –ешить четыре задачи из списка и отправить решени€ на ресурс дл€
-автоматической проверки.
-Х http://acm.timus.ru/problem.aspx?num=1545
-Х http://acm.timus.ru/problem.aspx?num=1496
-Х http://acm.timus.ru/problem.aspx?num=1196
+автоматической проверки.  
+Х http://acm.timus.ru/problem.aspx?num=1545  
+Х http://acm.timus.ru/problem.aspx?num=1496  
+Х http://acm.timus.ru/problem.aspx?num=1196    
 Х http://acm.timus.ru/problem.aspx?num=1837
 ѕрислать в чат ссылку на профиль с решенными задачами.
 ## ѕроверка
 «адание считаетс€ выполненным успешно, если результат проверки всех
 задач получил статус Accepted.
+
+## –ешение
+Ќомер задачи можно изменить, задав значение переменной `TIMUS_CURRENT_TASK` в CMakeLists.txt  
+ƒл€ проверки на тимусе нужно скопировать в тимус содержимое файла с соответствующей задачей, 
+заменив название функции вида `TaskXXXX` на `main`
